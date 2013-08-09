@@ -1,0 +1,3 @@
+List<OFStatistics> qreplist;
+        String portqueue = "2"+":"+"1";
+        qreplist = statsMgr.queryStatistics(switchId, OFStatisticsType.QUEUE, portqueue);
